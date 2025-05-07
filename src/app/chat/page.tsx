@@ -37,6 +37,7 @@ export default function ChatPage() {
           config: {
             bot_id: process.env.BOT_ID as string,
           },
+          isIframe: false,
           auth: {
             type: 'token',
             token: process.env.BOT_SECRET as string,

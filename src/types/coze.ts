@@ -32,6 +32,7 @@ export type CozeConfig = {
   config: {
     bot_id: string;
   };
+  isIframe: boolean;
   auth: {
     type: string;
     token: string;
