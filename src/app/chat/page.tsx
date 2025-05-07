@@ -115,7 +115,7 @@ export default function ChatPage() {
       <div className="flex-1 relative flex items-center justify-center overflow-auto">
         <div ref={chatContainerRef} className="w-full h-full" />
         <Script
-          src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.1.0-beta.1/libs/cn/index.js"
+          src="https://lf-cdn.coze.cn/obj/unpkg/flow-platform/chat-app-sdk/1.2.0-beta.8/libs/cn/index.js"
           strategy="afterInteractive"
           onLoad={() => setIsScriptLoaded(true)}
           onError={(e) => {
